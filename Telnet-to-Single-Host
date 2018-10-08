@@ -2,7 +2,7 @@ import getpass
 import sys
 import telnetlib
 
-#Telnet to only host 192.168.122.254 and have user input username and password
+#Telnet to only host 192.168.122.254 and have user input username
 HOST = "192.168.122.254"
 user = raw_input("Enter your telnet account: ")
 password = getpass.getpass()
